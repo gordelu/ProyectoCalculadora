@@ -21,6 +21,14 @@ public class Calculadora {
             return suma();
         }
 
+        if (operacion.equals("multiplicar")) {
+         return multiplicar();
+}
+
         return 0;
     }
+
+    public int multiplicar() {
+    return num1 * num2;
+}
 }
