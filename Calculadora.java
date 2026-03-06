@@ -21,6 +21,20 @@ public class Calculadora {
             return suma();
         }
 
+        if(operacion.equals("dividir")) {
+            return dividir();
+        }
+
         return 0;
     }
+
+    public int dividir() {
+
+    if (num2 == 0) {
+        System.out.println("No se puede dividir entre cero");
+        return 0;
+    }
+
+    return num1 / num2;
+}
 }
