@@ -23,4 +23,8 @@ public class Calculadora {
 
         return 0;
     }
+
+    public int resta() {
+    return num1 - num2;
+}
 }
